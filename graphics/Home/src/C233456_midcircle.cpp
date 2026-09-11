@@ -5,14 +5,14 @@ using namespace std;
 //$file="C233456_midcircle"; g++ "$file.cpp" -o "$file" -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
 void plotCirclePoints(int xc, int yc, int x, int y)
 {
-    putpixel(xc + x, yc - y, WHITE);
+    putpixel(xc + x, yc - y, WHITE); //tr
     putpixel(xc + y, yc - x, WHITE);
-    putpixel(xc - y, yc - x, WHITE);
+    putpixel(xc - y, yc - x, WHITE); 
     putpixel(xc - x, yc - y, WHITE);
 
-    putpixel(xc - x, yc + y, WHITE);
+    putpixel(xc - x, yc + y, WHITE); //bl
     putpixel(xc - y, yc + x, WHITE);
-    putpixel(xc + y, yc + x, WHITE);
+    putpixel(xc + y, yc + x, WHITE); 
     putpixel(xc + x, yc + y, WHITE);
 }
 void MidpointCircle(int r)
