@@ -3,8 +3,7 @@
 #include <iostream>
 #include <conio.h>
 using namespace std;
-//$file="C233456_circle"; g++ "$file.cpp" -o "$file" -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
-
+//$file="C233456_polycircle"; g++ "$file.cpp" -o "$file" -lbgi -lgdi32 -lcomdlg32 -luuid -loleaut32 -lole32
 void PolynomialCircle(int r)
 {
     float x = 0;
