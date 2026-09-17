@@ -16,7 +16,6 @@ void plotCirclePoints(int xc, int yc, int x, int y)
     putpixel(xc + y, yc + x, WHITE);
     putpixel(xc + x, yc + y, WHITE);
 }
-
 void TrigonometricCircle(int r)
 {
     int xc = 400;
@@ -33,8 +32,8 @@ void TrigonometricCircle(int r)
 
         plotCirclePoints(xc, yc, px, py);
         cout << "theta = " << theta
-             << ", x = " << px
-             << ", y = " << py << endl;
+            << ", x = " << px
+            << ", y = " << py << endl;
         theta = theta + step;
     }
 }
